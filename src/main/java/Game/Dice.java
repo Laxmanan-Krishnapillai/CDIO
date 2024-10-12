@@ -3,7 +3,7 @@ package Game;
 import java.util.Random;
 
 public class Dice {
-    private Random random;
+    final private Random random;
     public Dice() {
         random = new Random();
     }
